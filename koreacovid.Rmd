@@ -33,17 +33,6 @@ state of a patient must be died or alive - we adjust that as well
 
 
 ## Graphical results - use ggplot commands to do this  
-
-
-
-  
-
-
-
-
-
-  
-## Numerical results
 ```{r}
 dd2 <- kRdata %>% group_by(result,Sex) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
 
@@ -58,6 +47,19 @@ basicC + geom_bar(stat="identity",position="dodge")
 basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=Sex))
 basicCC + geom_bar (stat="identity", position = "dodge")
 ```
+
+
+  
+
+
+
+
+
+  
+## Numerical results
+
+
+
 
 
 ## Inferential results 
