@@ -49,7 +49,7 @@ state of a patient must be died or alive - we adjust that as well
 ## Inferential results 
 
 
-
+When plotting the grphical resuls, I observed that the number of people alive are way higher than dead people. 2/3 of the people with covid were men. 1/3 of the people with covid were women.
 
 ## Conclusions
 
